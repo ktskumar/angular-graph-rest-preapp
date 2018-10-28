@@ -20,6 +20,10 @@ Follow the below steps and use the code snippets to fetch the details from Micro
 ![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-preapp/master/README_assets/configClientID.png)
 - In the editor navigate to *Scripts/config.js*
   - Replace **&#60;Client ID&#62;** with your **Client ID** value
+  - Update the GraphScopes in config.json
+  ```javascript
+  graphScopes: ["user.read mail.send Sites.Read.All Files.Read Files.ReadWrite user.read.all Group.Read.All Calendars.Read Calendars.ReadWrite"]
+  ```
 - Run the below commands in terminal
   -  **npm install**
   -  **npm start**
