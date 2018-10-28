@@ -17,7 +17,7 @@ Follow the below steps and use the code snippets to fetch the details from Micro
   - Enable **Allow Implicit Flow** checkbox
   - Enter the Redirect URLs as http://localhost:8080/
 - Copy the **Client ID** which is generated in App Registration.
-![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-sample/master/README_assets/configClientID.png)
+![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-preapp/master/README_assets/configClientID.png)
 - In the editor navigate to *Scripts/config.js*
   - Replace **&#60;Client ID&#62;** with your **Client ID** value
 - Run the below commands in terminal
@@ -25,9 +25,9 @@ Follow the below steps and use the code snippets to fetch the details from Micro
   -  **npm start**
 - After successfull build, nvaigate to the location http://localhost:8080
 - Click **Connect** button to authenticate the App
-![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-sample/master/README_assets/Connect.png)
+![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-preapp/master/README_assets/Connect.png)
 - After connected, the view looks like below. Now you free to add your own code to connect Graph API
-![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-sample/master/README_assets/Outlook.png)
+![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-preapp/master/README_assets/Outlook.png)
 
 ### Use the Code Snippets
 The file **Public/Views/Main.html** contains required html snippets for running the complete application. So you have to concentrate on calling the GRAPH API and pass that method to the view.
@@ -36,7 +36,7 @@ If you want to add more properties and functionalities, you can modify the **Mai
 
 #### Connect SharePoint
 
-![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-sample/master/README_assets/SharePoint.png)
+![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-preapp/master/README_assets/SharePoint.png)
 
 The below Code snippets calls the Microsoft Graph API to fetch all the sites based on the searchquery and lists from the site based on the siteid
 
@@ -79,7 +79,7 @@ Under **`//SharePoint Methods`**
 
 #### Connect OneDrive
 
-![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-sample/master/README_assets/OneDrive.png)
+![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-preapp/master/README_assets/OneDrive.png)
 
 The below code snippets calls the Microsoft Graph API to fetch the folder, files and create a folder
 
@@ -141,7 +141,7 @@ Under **`//OneDrive Methods`**
 
 #### Connect Users and Groups
 
-![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-sample/master/README_assets/UsersGroups.png)
+![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-preapp/master/README_assets/UsersGroups.png)
 
 The below code snippets calls the Microsoft Graph API to fetch the users and groups
 
@@ -206,7 +206,7 @@ Under **`//Users and Groups Methods`**
 
 #### Connect Calendar Events
 
-![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-sample/master/README_assets/events.png)
+![](https://raw.githubusercontent.com/ktskumar/angular-graph-rest-preapp/master/README_assets/events.png)
 
 The below code snippets calls the Microsoft Graph API to fetch the events for the user and create a new event
 
