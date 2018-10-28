@@ -17,14 +17,14 @@
   function MainController($scope, $http, $log, GraphHelper) {
     let vm = this;
 
-    // View model properties
+    //View model properties
     vm.displayName;
     //Outlook
     vm.emailAddress;
     vm.emailAddressSent;
     vm.requestSuccess;
     vm.requestFinished;
-    //SharePoint
+    //SharePoint Properties
     vm.spsites;
     //Onedrive
     vm.oditems;
@@ -141,7 +141,7 @@
     };
 
 
-    /* SharePoint Methods */
+    //SharePoint Methods
     vm.getAllSites = function(){
       //Fetch all SharePoint sites handler comes here
     }
@@ -150,7 +150,7 @@
       //Fetch all lists from the sharepoint site comes here
     }
 
-    /* OneDrive Methods */
+    //OneDrive Methods
     vm.getDriveItems = function(){
       //Fetch all items from root of the onedrive handler comes here
 
@@ -164,7 +164,7 @@
       //Create folder handler comes here
     }
 
-    /* Users and Groups Methods */
+    //Users and Groups methods
     vm.getAllUsers = function(){
       //Users handler comes here
     }
@@ -182,8 +182,7 @@
 
     }
 
-    /** CALENDAR EVENTS Methods */
-
+    //Calendar Event methods
     vm.getEvents = function () {
       //Get All Events handler comes here
     }
@@ -192,7 +191,7 @@
       //Event Creation handler comes here
     }
 
-    /* Utilities */
+    //Utilities
     vm.showview = function (vwname) {
       vm.view = vwname;
     }
